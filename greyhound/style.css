@@ -293,6 +293,22 @@ input:focus {
 	font-size: 70%;
 }
 
+/* POST LINKS PHP */
+
+#post-links {
+	text-align: center;
+}
+
+#previous {
+	display: inline;
+	float: left;
+}
+
+#next {
+	display: inline;
+	float: right;
+}
+
 /* MAIN POST STYLING */
 
 #main-post {

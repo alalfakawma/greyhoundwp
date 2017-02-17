@@ -24,4 +24,11 @@
 		</div>
 	<?php endwhile; ?>
 
+	<div id="post-links" class="container">
+	
+		<div id="previous"><?php previous_posts_link(); ?></div>
+		<div id="next"><?php next_posts_link(); ?></div>
+
+	</div>
+
 <?php get_footer(); ?>

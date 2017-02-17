@@ -13,6 +13,6 @@ INSTALL IT AND CHECK IT OUT I GUARANTEE YOU WILL HATE IT.
 
 
 
-- need to add next page option after post overflow
+- need to add next page option after post overflow _/ FIXED but need styling
 - need to fix when there is no search content
 - need to fix single.php and search.php content width    _/ FIXED

@@ -3,6 +3,7 @@
 	<?php get_sidebar(); ?>
 	<!-- END SIDEBAR -->
 </div>
+
 <!-- CLEARFIX -->
 <div class="clearfix"></div>
 <!-- CLEARFIX -->
