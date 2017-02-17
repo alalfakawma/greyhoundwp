@@ -243,6 +243,7 @@ input:focus {
 
 #post-image img {
 	max-width: 100%;
+	outline: 2px solid #2b2b2b;
 }
 
 #post-image:empty {

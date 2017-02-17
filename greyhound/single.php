@@ -11,7 +11,13 @@
 			</div>
 		</div>
 
-		<a href="<?php the_permalink(); ?>"><div id="post-image"><?php the_post_thumbnail("full"); ?></div></a>
+		<a href="<?php the_permalink(); ?>"><div id="post-image"><?php
+
+		if ( has_post_thumbnail() ) { 
+			    the_post_thumbnail( 'custom' ); 
+		}
+		
+		?></div></a>
 
 		<div id="main-post">
 			<p id="post-content">
