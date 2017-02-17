@@ -19,8 +19,9 @@
 			<?php wp_nav_menu(); ?>
 
 			<div id="searchbar">
-				<input id="search-input" type="text" placeholder="Search..">
-				<div id="search-button"><i class="fa fa-search"></i></div>
+				<!-- <input id="search-input" type="text" placeholder="Search..">
+				<div id="search-button"><i class="fa fa-search"></i></div> -->
+				<?php get_search_form(); ?>
 			</div>	
 		</nav>
 	</header>

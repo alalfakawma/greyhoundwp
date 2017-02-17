@@ -34,9 +34,14 @@ body {
 	background-color: #fafafa;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: Arvo, sans-serif;
 	color: #2b2b2b;
+}
+
+h3 {
+	color: #808080;
+	font-weight: 400;
 }
 
 h1 a {
@@ -128,11 +133,20 @@ a {
 }
 
 input {
-	background-color: #efefef;
+	background-color: #333;
 	border: none;
-	height: 29px;
-	outline: 0;
+	height: 30px;
+	width: 200px;
+	outline: none;
 	padding: 5px 0px 5px 5px;
+}
+
+input:focus {
+	background-color: #fff;
+}
+
+::-webkit-input-placeholder {
+	color: #999;
 }
 
 #search-button {
@@ -150,7 +164,38 @@ input {
 	color: #a9a9a9;
 }
 
+/* SEARCH PAGE */
+
+#excerpt {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-bottom: 1px solid #898989;
+}
+
+#excerpt:last-of-type {
+	border-bottom: none;
+}
+
+#excerpt p {
+	margin-bottom: 10px;
+}
+
 /* HEADER PART DONE */
+
+/* PAGE SECTION */
+
+#page-section {
+	padding-top: 30px;
+	max-width: 650px;
+	float: left;
+}
+
+#page-section #main-post {
+	padding: 0;
+	border-bottom: none;
+}
+
+/* END OF PAGE.PHP */
 
 /* START CONTENT/MAIN SECTION */
 

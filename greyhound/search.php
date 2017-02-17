@@ -1,6 +1,8 @@
 <?php get_header(); ?>
-
+	<h3>Search results for <?php the_search_query(); ?> :</h3>
 	<?php while(have_posts()) : the_post(); ?>
+		
+	<article id="excerpt">
 		<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
 		<div id="post-meta-wrapper">
@@ -11,14 +13,11 @@
 			</div>
 		</div>
 
-		<a href="<?php the_permalink(); ?>"><div id="post-image"><?php the_post_thumbnail("full"); ?></div></a>
+	<div id="main-post">
+		<?php the_excerpt(); ?>
+	</div>
 
-		<div id="main-post">
-			<p id="post-content">
-				<?php the_content("Read More"); ?>
-			</p>
-		</div>
+	</article>
 	<?php endwhile; ?>
-	<?php comments_template(); ?>
 
 <?php get_footer(); ?>
