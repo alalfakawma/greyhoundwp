@@ -7,8 +7,8 @@
 <div class="clearfix"></div>
 <!-- CLEARFIX -->
 	<!-- START FOOTER -->
-	<footer id="main-footer">
-		<div class="container">
+	<footer id="main-footer" class="container">
+		<!-- <div class="container"> -->
 			<div id="footer-links">
 				<span>Links</span>
 				<ul>
@@ -20,7 +20,7 @@
 			</div>
 
 			<div id="footer-copyright">Copyright &copy; <?php the_date("Y"); ?> Aseem Lalfakawma</div>
-		</div>
+		<!-- </div> -->
 	</footer>
 	<!-- END FOOTER -->
 	<?php wp_footer(); ?>

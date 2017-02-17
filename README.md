@@ -6,11 +6,11 @@ BUT GONNA USE IT ON MY WEBSITE,
 INSTALL IT AND CHECK IT OUT I GUARANTEE YOU WILL HATE IT.
 
 # search bar now works
-# have customized search bar
-# have not fixed the thumbnail image size
+# have _/customized search bar
+# have _/fixed the thumbnail image size
+# have _/customized the read more
 # have not customized the comments
-# have not customized the read more
 
 
 - need to fix when there is no search content
-- need to fix single.php and search.php content width
+- need to fix single.php and search.php content width    _/ FIXED
