@@ -13,8 +13,16 @@
 			</div>
 		</div>
 
+		<a href="<?php the_permalink(); ?>"><div id="post-image"><?php
+		 	if ( has_post_thumbnail() ) { 
+			    the_post_thumbnail( 'custom' ); 
+			}
+		 ?></div></a>
+
 	<div id="main-post">
-		<?php the_excerpt(); ?>
+		<div id="post-content">
+			<?php the_excerpt(); ?>
+		</div>
 	</div>
 
 	</article>

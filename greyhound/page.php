@@ -5,9 +5,9 @@
 
 	<div id="page-section">
 		<div id="main-post">
-			<p id="post-content">
+			<div id="post-content">
 				<?php the_content("Read More"); ?>
-			</p>
+			</div>
 		</div>
 	</div>
 		

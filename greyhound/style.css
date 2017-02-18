@@ -237,7 +237,7 @@ input:focus {
 /* POST IMAGE DIV */
 
 #post-image {
-	padding: 10px 0 10px 0;
+	padding: 10px 0 20px 0;
 	text-align: center;
 }
 
@@ -263,7 +263,7 @@ input:focus {
 }
 
 #post-meta {
-	padding: 0 5px 0 5px;
+	padding: 0;
 }
 
 #post-meta a {
@@ -309,10 +309,12 @@ input:focus {
 	float: right;
 }
 
+/* END POST LINKS */
+
 /* MAIN POST STYLING */
 
 #main-post {
-	padding: 0 5px 10px 5px;
+	padding: 0 0 10px 0;
 	margin-bottom: 30px;
 	border-bottom: 1px solid #898989;
 }
