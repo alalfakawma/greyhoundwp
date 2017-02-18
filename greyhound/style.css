@@ -308,6 +308,19 @@ input:focus {
 	text-align: center;
 }
 
+#post-links a {
+	color: #efefef;
+	padding: 7px 8px 7px 8px;
+	background-color: #2b2b2b;
+	font-size: 75%;
+}
+
+#post-links a:hover {
+	transition: color .5s, background-color .5s;
+	color: #2b2b2b;
+	background-color: #fafafa;
+}
+
 #previous {
 	display: inline;
 	float: left;

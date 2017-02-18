@@ -24,6 +24,7 @@
 				<?php the_content("Read More"); ?>
 			</div>
 		</div>
+
 	<?php endwhile; ?>
 	<?php comments_template(); ?>
 
