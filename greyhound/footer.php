@@ -25,7 +25,7 @@
 	</footer>
 	<!-- END FOOTER -->
 	<?php wp_footer(); ?>
-
+	
 <script src="https://use.fontawesome.com/cbd153a72f.js"></script>
 </body>
 </html>

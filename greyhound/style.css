@@ -73,8 +73,9 @@ a.more-link {
 }
 
 a.more-link:hover {
-	transition: background-color .5s;
-	background-color: #999;
+	transition: color .5s, background-color .5s;
+	color: #2b2b2b;
+	background-color: #fafafa;
 }
 
 .clearfix:after {
