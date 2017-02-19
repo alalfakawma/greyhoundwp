@@ -6,7 +6,7 @@
 	<title><?php bloginfo("title"); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo("stylesheet_url"); ?>">
 	<link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 <body>
