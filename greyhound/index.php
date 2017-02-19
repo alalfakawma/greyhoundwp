@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
 	<?php
+if (have_posts()) {
+
 	 while(have_posts()) : the_post(); ?>
 		<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
@@ -12,18 +14,36 @@
 			</div>
 		</div>
 
-		<a href="<?php the_permalink(); ?>"><div id="post-image"><?php
-		 	if ( has_post_thumbnail() ) { 
-			    the_post_thumbnail( 'custom' ); 
-			}
-		 ?></div></a>
+		<a href="<?php the_permalink(); ?>"><div id="post-image">
+			<?php
+			 	if ( has_post_thumbnail() ) { 
+				    the_post_thumbnail( 'custom' ); 
+				}
+		 	?>
+		 </div></a>
 
 		<div id="main-post">
 			<div id="post-content">
 				<?php the_content("Read More"); ?>
 			</div>
 		</div>
-	<?php endwhile; ?>
+	<?php endwhile; 
+
+}
+else
+{
+
+	?>
+
+	<div id="no-result">
+
+		<h2>No blogposts yet.</h2>
+
+	</div>
+
+<?php
+}
+?>
 
 	<div id="post-links" class="container">
 	

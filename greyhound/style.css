@@ -163,7 +163,7 @@ a.more-link:hover {
 	text-align: center;
 }
 
-input {
+input#search-input {
 	background-color: #333;
 	border: none;
 	height: 30px;
@@ -172,7 +172,7 @@ input {
 	padding: 5px 0px 5px 5px;
 }
 
-input:focus {
+input#search-input:focus {
 	background-color: #fff;
 }
 
