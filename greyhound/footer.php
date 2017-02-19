@@ -1,6 +1,6 @@
 	</div>
 	<!-- END CONTENT -->
-	<?php get_sidebar(); ?>
+	<?php if(!is_404()) get_sidebar(); ?>
 	<!-- END SIDEBAR -->
 </div>
 
