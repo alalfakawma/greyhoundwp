@@ -287,7 +287,7 @@ input#search-input:focus {
 }
 
 #post-meta-wrapper i {
-	color: #a9a9a9;
+	color: #888;
 }
 
 #post-meta {
@@ -328,9 +328,63 @@ input#search-input:focus {
 	margin-bottom: 30px;
 }
 
-#comments-section {
-	margin-bottom: 30px;
+#comments-title {
+	padding: 10px 0 10px 10px;
+	text-align: center;
+	font-family: Arvo, sans-serif;
+	font-weight: 700;
+	font-size: 150%;
+	background-color: #2b2b2b;
+	color: #fafafa;
 }
+
+#comments-section {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	border: 1px solid #2b2b2b;
+}
+
+#comments-section ol {
+	list-style-type: none;
+}
+
+#main-comments {
+	padding: 5px 10px;
+	margin: 5px 0;
+}
+
+#comment-text {
+	clear: both;
+	width: 50%;
+	padding: 5px 0;
+	color: #2b2b2b;
+	font-weight: 300;
+}
+
+/* START COMMENT META */
+
+#comment-meta {
+	font-size: 90%;
+	font-weight: 400;
+	color: #808080;
+	border-bottom: 1px solid #2b2b2b;
+	text-align: left;
+	padding: 5px 0;
+}
+
+#comment-meta a {
+	text-decoration: none;
+	color: #2b2b2b;
+	font-weight: 700;
+}
+
+#comment-meta a:hover {
+	transition: color 1s;
+	-webkit-transition: color 1s;
+	color: #999;
+}
+
+/* COMMENT META END */
 
 .comments {
 	margin: 10px 0;
@@ -360,12 +414,14 @@ input#search-input:focus {
 	padding: 10px 0;
 	font-size: 150%;
 	width: 650px;
+	font-family: Arvo, sans-serif;
 	max-width: 100%;
 	outline: none;
 	border: none;
 	color: #fafafa;
 	background-color: #2b2b2b;
 	cursor: pointer;
+	font-weight: 700;
 }
 
 #submit-button:hover {
@@ -374,6 +430,7 @@ input#search-input:focus {
 	color: #2b2b2b;
 	background-color: #fafafa;
 }
+
 
 /* INPUT LABELS */
 

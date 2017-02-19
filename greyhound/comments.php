@@ -1,5 +1,5 @@
 
-<!-- DONT LET IT LOAD DIRECTLY -->
+<!-- DONT LET PEOPLE LOAD DIRECTLY -->
 <?php if(!empty($_SERVER["SCRIPT_FILENAME"]) && "comments.php" == basename($_SERVER["SCRIPT_FILENAME"])) : ?>
 	<?php die("Please do not load this page"); ?>
 <?php endif; ?>
@@ -15,15 +15,20 @@
 
 <?php if($comments) : ?>
 	<div id="comments-section">
+	<div id="comments-title">
+		Comments
+	</div>
 		<ol>
 			<?php foreach ($comments as $comment) : ?>
-			<li class="comments" id="comment-<?php comment_ID(); ?>">
-				<?php if($comment->comment_approved = "0") : ?>
-				<p>Your comment is awaiting moderation.</p>
-				<?php endif; ?>
-				<div><?php comment_text(); ?></div>
-				<div><?php comment_author_link(); ?> on <?php comment_date(); ?> <?php comment_time('H:i:s'); ?></div>
-			</li>
+			<div id="main-comments">
+				<li class="comments" id="comment-<?php comment_ID(); ?>">
+					<?php if($comment->comment_approved = "0") : ?>
+					<p>Your comment is awaiting moderation.</p>
+					<?php endif; ?>
+					<div id="comment-meta"><?php comment_author_link(); ?> on <?php comment_date(); ?></div>
+					<div id="comment-text"><?php comment_text(); ?></div>			
+				</li>
+			</div>
 			<?php endforeach; ?>
 		</ol>
 	</div>

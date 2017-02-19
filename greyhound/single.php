@@ -13,8 +13,8 @@
 
 		<a href="<?php the_permalink(); ?>"><div id="post-image"><?php
 
-		if ( has_post_thumbnail() ) { 
-			    the_post_thumbnail( 'custom' ); 
+		if (has_post_thumbnail()) { 
+			    the_post_thumbnail('custom'); 
 		}
 		
 		?></div></a>
