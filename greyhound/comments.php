@@ -14,19 +14,19 @@
 <!-- START COMMENT LOOP -->
 
 <?php if($comments) : ?>
-<div id="comments-section">
-	<ol>
-		<?php foreach ($comments as $comment) : ?>
-		<li class="comments" id="comment-<?php comment_ID(); ?>">
-			<?php if($comment->comment_approved = "0") : ?>
-			<p>Your comment is awaiting moderation.</p>
-			<?php endif; ?>
-			<div><?php comment_text(); ?></div>
-			<div><?php comment_author_link(); ?> on <?php comment_date(); ?> <?php comment_time('H:i:s'); ?></div>
-		</li>
-		<?php endforeach; ?>
-	</ol>
-</div>
+	<div id="comments-section">
+		<ol>
+			<?php foreach ($comments as $comment) : ?>
+			<li class="comments" id="comment-<?php comment_ID(); ?>">
+				<?php if($comment->comment_approved = "0") : ?>
+				<p>Your comment is awaiting moderation.</p>
+				<?php endif; ?>
+				<div><?php comment_text(); ?></div>
+				<div><?php comment_author_link(); ?> on <?php comment_date(); ?> <?php comment_time('H:i:s'); ?></div>
+			</li>
+			<?php endforeach; ?>
+		</ol>
+	</div>
 
 <!-- DISPLAY THIS IF NO COMMENTS ARE THERE -->
 <?php else : ?>
