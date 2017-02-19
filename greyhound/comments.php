@@ -41,6 +41,8 @@
 
 <!-- IF COMMENTS ARE OPEN DO THIS -->
 <?php if(comments_open()) : ?>
+<!-- SHOW THEM FILLUP FORM IF THE USER IS NOT LOGGED IN -->
+	<?php if(!is_user_logged_in()) : ?>
 											
 		<form action="<?php echo get_option("siteurl"); ?>/wp-comments-post.php" method="post">
 
@@ -58,6 +60,8 @@
 			<!-- <label for="url" class="comment-label">Website</label> -->		
 			<input class="input-fields" type="text" name="url" placeholder="Website" /> <!-- value="<?php echo $comment_author_url; ?>" --> 
 		</div>
+
+	<?php endif; ?>
 
 		<div>
 		<textarea id="textarea" name="comment" rows="5"></textarea>
