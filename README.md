@@ -10,6 +10,7 @@ INSTALL IT AND CHECK IT OUT I GUARANTEE YOU WILL HATE IT.
 # have _/fixed the thumbnail image size
 # have _/customized the read more
 # have not customized the comments
+# trying to add comments section
 
 
 
