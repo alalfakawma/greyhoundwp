@@ -8,6 +8,8 @@ INSTALL IT AND CHECK IT OUT I GUARANTEE YOU WILL HATE IT.
 
 # OFFICIALLY DONE WITH THE THEME/ONLY RESPONSIVENESS LEFT.
 
+# mobile responsiveness fixed.
+
 
 - search bar now works
 - have _/customized search bar
