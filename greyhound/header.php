@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="keywords" content="aseem lalfakawma, aseem, lalfakawma, wordpress, blog, instagram, twitter, personal blog, blog, theme, web, developer, development, google">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<title><?php bloginfo("title"); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo("stylesheet_url"); ?>">
