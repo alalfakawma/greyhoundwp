@@ -745,9 +745,6 @@ input#search-input:focus {
 	#footer-copyright {
 		font-size: 60%;
 		margin-top: 75px;
-		width: 50%;
-		float: right;
-		text-align: right;
 	}
 
 	#comments-title {
@@ -771,4 +768,16 @@ input#search-input:focus {
 
 }
 
+/* FOR IPHONE 5 */
+
+@media screen and (max-width: 320px) {
+
+	#footer-copyright {
+		font-size: 50%;
+		margin-top: 75px;
+	}
+
+}
+
 /* MOBILE PHONE DONE */
+

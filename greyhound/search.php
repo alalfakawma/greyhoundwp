@@ -19,11 +19,7 @@ if (have_posts()) {
 				</div>
 			</div>
 
-			<a href="<?php the_permalink(); ?>"><div id="post-image"><?php
-			 	if (has_post_thumbnail()) { 
-				    the_post_thumbnail('custom'); 
-				}
-			 ?></div></a>
+			<div id="post-image"><?php if (has_post_thumbnail()) : ?><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('custom'); ?></a><?php endif; ?></div>
 
 		<div id="main-post">
 			<div id="post-content">
