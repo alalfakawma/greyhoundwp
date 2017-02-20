@@ -11,7 +11,7 @@
 			</div>
 		</div>
 
-		<div id="post-image"><?php if (has_post_thumbnail()) : ?><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('custom'); ?></a><?php endif; ?></div>
+		<div id="post-image"><?php if (has_post_thumbnail()) : ?><?php the_post_thumbnail('custom'); ?><?php endif; ?></div>
 
 		<div id="main-post">
 			<div id="post-content">
