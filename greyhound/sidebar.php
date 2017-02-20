@@ -1,7 +1,7 @@
 <div id="sidebar">
 		<div id="about-me">
 			<h2>About me</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum optio cumque incidunt maiores, fugiat cum temporibus, facilis exercitationem odio ad amet quia expedita dignissimos perferendis, rerum atque in laborum quibusdam.</p>
+			<p>Learning web developer. CSS/HTML/JS/PHP beginner. Mostly at home. Kinda anti-social. </br></br> P.S This theme is free to use and is on my github, check the footer.</p>
 		</div>
 
 		<div id="post-recent">
