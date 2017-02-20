@@ -42,9 +42,10 @@
 <!-- IF COMMENTS ARE OPEN DO THIS -->
 <?php if(comments_open()) : ?>
 <!-- SHOW THEM FILLUP FORM IF THE USER IS NOT LOGGED IN -->
+	
+	<form action="<?php echo get_option("siteurl"); ?>/wp-comments-post.php" method="post">
+
 	<?php if(!is_user_logged_in()) : ?>
-											
-		<form action="<?php echo get_option("siteurl"); ?>/wp-comments-post.php" method="post">
 
 		<div class="input-labels">
 			<!-- <label for="author" class="comment-label">Name <?php if($req) echo "*" ?></label> -->
