@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<title><?php bloginfo("title"); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo("stylesheet_url"); ?>">
 	<link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
