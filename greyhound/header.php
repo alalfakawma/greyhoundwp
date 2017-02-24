@@ -14,7 +14,7 @@
 	<!-- START HEADER -->
 	<header id="main-header">
 
-		<div id="header-name"><a href="<?php echo home_url(); ?>"><?php bloginfo("name"); ?></a></div>
+		<div id="header-name"><h1><a href="<?php echo home_url(); ?>"><?php bloginfo("name"); ?></a></h1></div>
 		<div id="header-description"><?php bloginfo("description"); ?></div>
 
 		<nav id="main-nav" class="container">
